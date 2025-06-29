@@ -1,5 +1,5 @@
 
-# 🦩 Flamingo Pay – Technical Documentation
+#  Flamingo Pay – Technical Documentation
 
 **Version:** 1.0  
 **Maintainer:** SahanTech Solutions  
@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **Flamingo Pay** is a **voice-first Unified Payment Interface (UPI)** app that empowers **visually impaired and digitally excluded users** to access and control their finances through **spoken commands**, **secure eKYC onboarding**, and **multilingual accessibility**.
 
@@ -15,7 +15,7 @@ Flamingo is built in Ethiopia for Africa — focused on dignity, access, and inc
 
 ---
 
-## 🧱 System Architecture
+##  System Architecture
 
 ```text
 Flutter Mobile App
@@ -34,7 +34,7 @@ eKYC Engine (OCR, voice biometric, liveness)
 
 ---
 
-## 🧠 Core Modules & Technologies
+##  Core Modules & Technologies
 
 ### 🎙️ 1. Voice Interaction (No Screen Required)
 - **Google Cloud Speech-to-Text** – Processes user voice commands
@@ -42,14 +42,14 @@ eKYC Engine (OCR, voice biometric, liveness)
 - **Flutter** – Front-end built with cross-platform UI toolkit
 - **Amharic + English** – Language selection via voice
 
-### 🔐 2. Authentication & eKYC
+###  2. Authentication & eKYC
 - **Voice PIN** – Spoken numeric PIN used to log in
 - **Voice Biometrics** – Used to confirm user identity
 - **eKYC Document Capture** – Via phone camera
 - **OCR** – Custom backend with Tesseract.js for ID scanning
 - **Liveness Check** – Randomized voice phrase matching
 
-### 💸 3. UPI Transaction Engine
+###  3. UPI Transaction Engine
 - Built in **Node.js (Express)**
 - Handles:
   - `check_balance`
@@ -59,7 +59,7 @@ eKYC Engine (OCR, voice biometric, liveness)
 
 ---
 
-## 🔐 Security Stack
+##  Security Stack
 
 | Layer | Tool |
 |-------|------|
@@ -71,7 +71,7 @@ eKYC Engine (OCR, voice biometric, liveness)
 
 ---
 
-## 📊 API Overview
+##  API Overview
 
 | Endpoint | Method | Description |
 |----------|--------|-------------|
@@ -83,13 +83,13 @@ eKYC Engine (OCR, voice biometric, liveness)
 
 ---
 
-## 🧪 Example Voice Flow
+##  Example Voice Flow
 
 ```
 User: "Log in"
 System: "Say your voice PIN"
 User: "One two three four"
-✅ Authenticated
+ Authenticated
 
 User: "Check balance"
 System: "Your current balance is 3,200 birr."
@@ -97,12 +97,12 @@ System: "Your current balance is 3,200 birr."
 User: "Send 200 birr to Amina"
 System: "Confirm sending 200 birr to Amina Yusuf?"
 User: "Yes"
-✅ Transfer completed
+ Transfer completed
 ```
 
 ---
 
-## 🛠️ Development Stack
+## Development Stack
 
 | Component | Tech Used |
 |-----------|-----------|
@@ -117,7 +117,7 @@ User: "Yes"
 
 ---
 
-## 🌍 Accessibility & Inclusion
+##  Accessibility & Inclusion
 
 - Built with **WCAG 2.1** in mind
 - Voice-only mode for full app flow
@@ -128,7 +128,7 @@ User: "Yes"
 
 ---
 
-## 🧾 Database Schema (Simplified)
+##  Database Schema (Simplified)
 
 ### `users`
 | Field | Type |
@@ -153,7 +153,7 @@ User: "Yes"
 
 ---
 
-## 🔌 Integrations
+##  Integrations
 
 - 🔊 **Google Cloud Speech & TTS** – Real-time speech interface
 - 🔐 **EthSwitch (Planned)** – UPI connection
@@ -162,7 +162,7 @@ User: "Yes"
 
 ---
 
-## 👥 Roles & Permissions
+## Roles & Permissions
 
 - **User**: Perform voice transactions
 - **Compliance Officer**: Review KYC entries
@@ -170,13 +170,13 @@ User: "Yes"
 
 ---
 
-## 📬 Contact
+##  Contact
 
 **Maintained by**: SahanTech Solutions  
 **Founder**: Dr. Jibril Mohamed Ahmed  
-📧 jebrildomenico@gmail.com  
-📞 +251 937 099 779  
-🔗 [LinkedIn](https://linkedin.com/in/jibril-mohamed-ahmed)
+# jebrildomenico@gmail.com  
+ # +251 937 099 779  
+# [LinkedIn](https://linkedin.com/in/jibril-mohamed-ahmed)
 
 ---
 
