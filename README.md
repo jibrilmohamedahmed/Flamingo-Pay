@@ -36,7 +36,7 @@ eKYC Engine (OCR, voice biometric, liveness)
 
 ##  Core Modules & Technologies
 
-### 🎙️ 1. Voice Interaction (No Screen Required)
+###  1. Voice Interaction (No Screen Required)
 - **Google Cloud Speech-to-Text** – Processes user voice commands
 - **Google Cloud Text-to-Speech** – Reads system responses aloud
 - **Flutter** – Front-end built with cross-platform UI toolkit
@@ -155,10 +155,10 @@ User: "Yes"
 
 ##  Integrations
 
-- 🔊 **Google Cloud Speech & TTS** – Real-time speech interface
-- 🔐 **EthSwitch (Planned)** – UPI connection
-- 🧠 **Tesseract.js (OCR)** – For local ID recognition
-- 📡 **DeployPad Hosting** – Secure deployment platform
+-  **Google Cloud Speech & TTS** – Real-time speech interface
+-  **EthSwitch (Planned)** – UPI connection
+-  **Tesseract.js (OCR)** – For local ID recognition
+-  **DeployPad Hosting** – Secure deployment platform
 
 ---
 
@@ -180,5 +180,5 @@ User: "Yes"
 
 ---
 
-> 🦩 *“Flamingo started with one blind father.  
+> # *“Flamingo started with one blind father.  
 Now it belongs to everyone the system left behind.”*
